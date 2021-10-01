@@ -1,0 +1,32 @@
+.container {
+  display: grid;
+  grid-template: repeat(7, 80px) / 10% repeat(4, 15%);
+  justify-content: center;
+  align-content: center;
+  gap: 10px;
+}
+.box {
+  background-color: lightcoral;
+  padding: 2rem;
+  border-radius: 16%;
+}
+.mor {
+  background-color: rgb(246, 246, 124);
+}
+.noon {
+  background-color: rgb(239, 248, 116);
+}
+.eve {
+  background-color: rgb(105, 180, 241);
+}
+.night {
+  background-color: rgb(86, 96, 124);
+}
+.fri.mor {
+  grid-column: span 4;
+  text-align: center;
+}
+.sat.noon {
+  background-color: tomato;
+  grid-area: 1/3/4/3;
+}
